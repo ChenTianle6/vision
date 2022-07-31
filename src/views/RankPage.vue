@@ -1,15 +1,15 @@
 <template>
 	<div class="com-page">
-		<seller></seller>
+		<rank></rank>
 	</div>
 </template>
 
 <script>
-	import Seller from '@/components/Seller'
+	import Rank from '@/components/Rank'
 	export default {
-		name: 'SellerPage',
+		name: '',
 		components: {
-			seller: Seller
+			rank: Rank
 		}
 	};
 </script>

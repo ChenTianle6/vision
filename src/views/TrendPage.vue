@@ -1,15 +1,15 @@
 <template>
 	<div class="com-page">
-		<seller></seller>
+		<trend></trend>
 	</div>
 </template>
 
 <script>
-	import Seller from '@/components/Seller'
+	import Trend from '@/components/Trend'
 	export default {
-		name: 'SellerPage',
+		name: 'TrendPage',
 		components: {
-			seller: Seller
+			trend: Trend
 		}
 	};
 </script>

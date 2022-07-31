@@ -1,15 +1,23 @@
 <template>
 	<div class="com-page">
-		<seller></seller>
+		<single-map></single-map>
 	</div>
 </template>
 
 <script>
-	import Seller from '@/components/Seller'
+	import Map from '@/components/Map'
 	export default {
-		name: 'SellerPage',
+		name: '',
+		data() {
+			return {
+
+			}
+		},
+		methods: {
+
+		},
 		components: {
-			seller: Seller
+			'single-map': Map
 		}
 	};
 </script>

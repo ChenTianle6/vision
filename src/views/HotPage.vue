@@ -1,15 +1,15 @@
 <template>
 	<div class="com-page">
-		<seller></seller>
+		<hot></hot>
 	</div>
 </template>
 
 <script>
-	import Seller from '@/components/Seller'
+	import Hot from '@/components/Hot'
 	export default {
-		name: 'SellerPage',
+		name: '',
 		components: {
-			seller: Seller
+			hot: Hot
 		}
 	};
 </script>
