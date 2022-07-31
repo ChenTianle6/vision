@@ -8,10 +8,10 @@
 				<!-- <img :src="logoSrc" alt="" /> -->
 			</span>
 			<span class="title">Echarts实时监控Demo</span>
-			<!-- <div class="title-right">
+			<div class="title-right">
 				<img :src="themeSrc" class="qiehuan" @click="handleChangeTheme" />
 				<span class="datetime">{{ nowTime }}</span>
-			</div> -->
+			</div>
 		</header>
 		<div class="screen-body">
 			<section class="screen-left">
@@ -40,7 +40,7 @@
 					<Seller ref="seller"></Seller>
 					<div class="resize">
 						<!-- icon-compress-alt -->
-						<!-- <span
+						<span
 							@click="changeSize('seller')"
 							:class="[
 								'iconfont',
@@ -48,7 +48,7 @@
 									? 'icon-compress-alt'
 									: 'icon-expand-alt'
 							]"
-						></span> -->
+						></span>
 					</div>
 				</div>
 			</section>
