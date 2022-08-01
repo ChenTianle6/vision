@@ -97,6 +97,12 @@ export default {
 					coordinateSystem: 'geo'
 				}
 			});
+			const dataOption = {
+				series: seriesArr,
+				legend: {
+					data: legendArr
+				}
+			};
 			this.chartInstance.setOption(dataOption);
 		},
 		screenAdapter() {
@@ -141,6 +147,6 @@ export default {
 	}
 };
 </script>
-<style scoped lang='scss'>
+<style scoped lang='less'>
  
 </style>

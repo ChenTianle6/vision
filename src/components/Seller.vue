@@ -135,7 +135,7 @@
 				this.updateChart();
 
 				// 启动定时器
-				// this.startInterval();
+				this.startInterval();
 			},
 
 			// 更新图表

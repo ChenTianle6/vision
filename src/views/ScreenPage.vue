@@ -61,13 +61,13 @@
 					<Map ref="map"></Map>
 					<div class="resize">
 						<!-- icon-compress-alt -->
-						<!-- <span
+						<span
 							@click="changeSize('map')"
 							:class="[
 								'iconfont',
 								fullScreenStatus.map ? 'icon-compress-alt' : 'icon-expand-alt'
 							]"
-						></span> -->
+						></span>
 					</div>
 				</div>
 				<div
@@ -78,13 +78,13 @@
 					<Rank ref="rank"></Rank>
 					<div class="resize">
 						<!-- icon-compress-alt -->
-						<!-- <span
+						<span
 							@click="changeSize('rank')"
 							:class="[
 								'iconfont',
 								fullScreenStatus.rank ? 'icon-compress-alt' : 'icon-expand-alt'
 							]"
-						></span> -->
+						></span>
 					</div>
 				</div>
 			</section>
